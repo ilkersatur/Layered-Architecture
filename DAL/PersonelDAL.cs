@@ -14,6 +14,7 @@ namespace DAL
         }
         public List<Personel> TumPersoneller()
         {
+            //ADO.Net Bağlantılı Yöntem
             conn.Open();
             SqlCommand cmd = new SqlCommand("select * from Personel", conn);
             SqlDataReader dr = cmd.ExecuteReader();

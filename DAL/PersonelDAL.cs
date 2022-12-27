@@ -3,7 +3,8 @@ using System.Data.SqlClient;
 using Model;
 namespace DAL
 {
-    //Model dll kullanmak için Add > Project Reference'den yapılır
+    // Model dll kullanmak için Add > Project Reference'den yapılır
+    // Katmanlı mimari sayesinde proje daha yönetilebilir olur.
     public class PersonelDAL
     {
         SqlConnection conn;
